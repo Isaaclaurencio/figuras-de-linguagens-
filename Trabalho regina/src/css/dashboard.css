@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: #0078D7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-picture {
+    margin-bottom: 10px;
+}
+
+.profile-picture img {
+    width: 80px; /* Tamanho da imagem */
+    height: 80px; /* Tamanho da imagem */
+    border-radius: 50%; /* Para deixar a imagem redonda */
+    border: 2px solid white; /* Borda branca */
+}
+
+.navbar {
+    background-color: #0056a1; /* Cor do fundo da barra de navegação */
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+    text-align: center; /* Centraliza o texto */
+}
+
+.navbar li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+.navbar a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Negrito */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 150px; /* Largura dos cartões */
+}
+
+.card h3 {
+    margin: 0 0 10px;
+}
+
+.card p {
+    margin: 0;
+}
+
+.info {
+    display: none; /* Esconde as seções de informação por padrão */
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info h2 {
+    margin-top: 0;
+}
+
+.membro {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.membro-imagem {
+    width: 50px; /* Tamanho da imagem do membro */
+    height: 50px; /* Tamanho da imagem do membro */
+    border-radius: 50%; /* Para deixar a imagem redonda */
+    margin-right: 10px; /* Espaçamento à direita da imagem */
+}
